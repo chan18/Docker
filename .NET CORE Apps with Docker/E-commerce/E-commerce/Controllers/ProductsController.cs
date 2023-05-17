@@ -10,16 +10,20 @@ namespace E_commerce.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        private readonly ILogger<ProductsController> logger;
         private readonly IProductLogic _productLogic;
 
-        public ProductsController(IProductLogic productLogic)
+        public ProductsController(ILogger<ProductsController> logger, IProductLogic productLogic)
         {
+            this.logger = logger;
             _productLogic = productLogic;
         }
 
         [HttpGet]
         public IEnumerable<Product> GetProducts(string category = "all")
         {
+            logger.LogInformation("Starting controller action GetProducts for {category}", category);
+
             return _productLogic.GetProductsForCategory(category);
         }
     }

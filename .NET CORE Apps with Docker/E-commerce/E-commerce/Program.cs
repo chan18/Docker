@@ -1,5 +1,6 @@
 using E_commerce.Domain;
 using E_commerce.Interfaces;
+using E_commerce.Middleware;
 using Microsoft.OpenApi.Models;
 
 namespace E_commerce
@@ -23,6 +24,8 @@ namespace E_commerce
             });
 
             var app = builder.Build();
+
+            app.UseMiddleware<CustomExceptionHandlingMiddleware>();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
