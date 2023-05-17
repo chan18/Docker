@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce", "E-commerce\E-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.OrderProcessor", "E-Commerce.OrderProcessor\E-Commerce.OrderProcessor.csproj", "{8F13C5BC-4C8A-499A-B313-00FC78A9E784}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.InvoiceGenerator", "E-commerce.InvoiceGenerator\E-commerce.InvoiceGenerator.csproj", "{F56CD3DD-7E35-43D1-A641-08EEB55F698B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8F13C5BC-4C8A-499A-B313-00FC78A9E784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F13C5BC-4C8A-499A-B313-00FC78A9E784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F13C5BC-4C8A-499A-B313-00FC78A9E784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56CD3DD-7E35-43D1-A641-08EEB55F698B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56CD3DD-7E35-43D1-A641-08EEB55F698B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56CD3DD-7E35-43D1-A641-08EEB55F698B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56CD3DD-7E35-43D1-A641-08EEB55F698B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

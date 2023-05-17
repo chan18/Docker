@@ -71,7 +71,7 @@ namespace E_commerce
             finally
             {
                 Log.CloseAndFlush();
-            }            
+            }
         }
     }
 }
