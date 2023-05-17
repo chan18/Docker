@@ -1,5 +1,4 @@
 
-
 ## .vscode/lunch.json
 After adding the docker support with vs-code, It will populate the lunch json file with below.
 ```
@@ -16,7 +15,6 @@ After adding the docker support with vs-code, It will populate the lunch json fi
             }
     }
 ```
-
 
 Add Below lunch browser option to lunch browser.
 ```
