@@ -1,6 +1,6 @@
 
 
-### .vscode/lunch.json
+## .vscode/lunch.json
 After adding the docker support with vs-code, It will populate the lunch json file with below.
 ```
     {
@@ -30,7 +30,7 @@ Add Below lunch browser option to lunch browser.
             },
 ```
 
-### .vscode/Task.json
+## .vscode/Task.json
 will populate with `docker-build`, `docker-run` for buth debug and release.
 ```
 {
@@ -92,3 +92,5 @@ will populate with `docker-build`, `docker-run` for buth debug and release.
         }
 ```
 
+## Note
+***docker desktop will not show logs when we run the container from the vs-code lunch options**
